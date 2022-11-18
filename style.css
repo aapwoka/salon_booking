@@ -1,0 +1,105 @@
+body{
+    margin:0px;
+    padding:0px;
+}
+
+/*add black background to navigation bar*/
+.topnav{
+background-color: #333;
+
+color:white;
+overflow:hidden;
+}
+
+/*style link in navigation bar*/
+.topnav a{
+margin-left:0px;
+color:#f2f2f2;
+float:left;
+text-align:center;
+padding:25px 115px;
+text-decoration:none;
+font-size:17px;
+}
+
+
+/*change link color on hover*/
+.topnav a:hover{
+background-color:#ddd;
+color:black;
+}
+
+/*add color to active link*/
+.topnav a.active{
+background-color:#04AA6D;
+color:white;
+}
+
+.about{
+position:absolute;
+font-size:200%;
+color:blue;
+bottom:170px;
+font-weight:800;
+left:700px;
+}
+
+.aboutus{
+position:absolute;
+font-size:150%;
+color:white;
+bottom:140px;
+left:350px;
+}
+
+.aboutuss{
+position:absolute;
+font-size:150%;
+color:white;
+bottom:100px;
+left:630px
+}
+
+.copyright{
+ position:absolute;
+ bottom:0px;
+ left:600px;
+ font-size:100%;
+ font-weight:800;
+ color:blueviolet;
+}
+
+ .button1{
+background-color:#4CAF50;
+width:35%;
+font-size:20px;
+margin-left:40px;
+color:white;
+cursor:pointer;
+padding:20px 32px;
+border-radius:8px;
+}
+
+.booking{
+display:block;
+margin-top:20px;
+text-align:center;
+padding:100px 100px;
+}
+
+.about1{
+display:block;
+margin-top:50px;
+color:yellowgreen;
+padding:100px 100px;
+text-align:center;
+font-weight:bolder;
+
+}
+
+.contact{
+display:block;
+padding:60px 80px;
+text-align:center;
+margin-top:30px;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<Title>Book</Title>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body style="background-color:black;">
+
+	<style>
+		body{
+			background-image:
+			url("adam.jpg");
+			background-size:2000px 1500px;
+		}
+	</style>   
+      
+<div class = "topnav">
+	<a class = "active" href="website.html"> HOME</a>
+	<a href = "Designs.html"> AVAILABLE DESIGNS</a>
+	<a href ="Contacts.html"> CONTACT</a>
+	<a href ="About.html"> ABOUT US</a>
+	
+	</div>
+	
+	<div class="booking">
+
+	<form name = "booking" action="" method="POST" id="contactForm">
+		<label for="fullname" name="name" style="margin-left: 0px; color: blue; font-size: 150%; "><b>FULL NAME:</b></label>
+		<input type="text" id ="fullname" name="fullname" style="margin-left: 65px; padding: 10px 70px; color: blue; border-radius:5px;"><br><br>
+		<label for="email" style="margin-left: 0px;color: blue; font-size: 150%;"><b>EMAIL ADDRESS:</b></label>
+		<input type="text" id="email" name="email" style="margin-left: 10px; padding: 10px 70px; color: blue; border-radius:5px;"><br><br>
+		<label for="contact" style="margin-left: 20px;color: blue; font-size: 150%;"><b>CONTACT:</b></label>
+		<input type="text" name="contact" id="contact" style="margin-left: 70px; padding: 10px 70px; color: blue; border-radius:5px;"><br><br>
+		<label for="time" style="margin-left:-300px;color: blue; font-size: 150%;"><b>DESIRED TIME OF SERVICE(DATE & TIME):</b></lable>
+		<input type="text" name="time" id="time" style=" padding: 10px 70px; color: blue; border-radius:5px;"><br>
+			
+			<input type="submit" id="submit" value="SECURE YOUR BOOKING" style="color:white; cursor:pointer; border-radius:5px;margin-left: 180px; background-color:blue; padding: 15px 50px; margin-top: 50px;">
+		
+	</form>
+</div>
+	
+       <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+	   <script type="text/javascript" src="main.js"></script> 
+</body>
+
+
+</html>
